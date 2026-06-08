@@ -240,3 +240,7 @@
     })();
 
 })(document.documentElement);
+
+// Add this at the very bottom of main.js to force the site to show
+document.querySelector('body').classList.add('ss-show');
+document.querySelector('#preloader').style.display = 'none';
